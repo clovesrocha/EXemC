@@ -1,2 +1,5 @@
 # EXemC
-Exercícios em linguagem C.
+- PSC - Prof. MSc. Cloves Rocha.
+- Exercícios em linguagem C.
+  
+
