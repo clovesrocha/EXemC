@@ -1,0 +1,46 @@
+## Desafio SQL para Iniciantes: Analisando Dados de uma Loja de Games
+
+**Cenário:**
+
+Você foi contratado como analista de dados em uma loja de games online. A loja possui um banco de dados com informações sobre clientes, jogos, pedidos e vendas. Sua missão é usar suas habilidades em SQL para extrair insights valiosos e ajudar a loja a tomar decisões estratégicas.
+
+**Banco de Dados:**
+
+* **clientes:** id_cliente, nome, email, data_cadastro
+* **jogos:** id_jogo, nome, genero, preco, plataforma
+* **pedidos:** id_pedido, id_cliente, data_pedido
+* **itens_pedido:** id_item, id_pedido, id_jogo, quantidade
+
+**Desafios:**
+
+1. **Clientes:**
+    * Quantos clientes a loja possui?
+    * Qual o nome do cliente mais antigo?
+    * Quantos clientes se cadastraram no último mês?
+2. **Jogos:**
+    * Qual o jogo mais caro da loja?
+    * Quais jogos estão disponíveis para PlayStation?
+    * Qual o gênero de jogo mais popular?
+3. **Vendas:**
+    * Qual o valor total de vendas no último mês?
+    * Qual o jogo mais vendido?
+    * Qual cliente gastou mais dinheiro na loja?
+
+**Dicas:**
+
+* Use as cláusulas `SELECT`, `FROM`, `WHERE`, `GROUP BY`, `ORDER BY` e funções de agregação como `COUNT`, `SUM`, `MAX`, `MIN`.
+* Explore as relações entre as tabelas usando `JOIN`.
+* Use a função `DATE()` para trabalhar com datas.
+
+**Bônus:**
+
+* Crie uma consulta para mostrar os 10 jogos mais vendidos, com o nome do jogo e a quantidade total vendida.
+* Crie uma consulta para mostrar os clientes que fizeram mais de 5 pedidos, com o nome do cliente e a quantidade de pedidos.
+
+**Onde praticar:**
+
+Você pode usar um banco de dados online gratuito, como o SQLite Online ([https://sqliteonline.com/](https://sqliteonline.com/)), ou instalar um sistema de gerenciamento de banco de dados (SGBD) localmente, como o MySQL ou PostgreSQL.
+
+**Solução:**
+
+Se precisar de ajuda ou quiser conferir as soluções, me diga! 😉
